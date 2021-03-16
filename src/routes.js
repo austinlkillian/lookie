@@ -16,14 +16,14 @@ import UpvotedReviewers from './pages/UpvotedReviewers';
 export default (
     <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/category' component={Category} />
-        <Route exact path='/organization-create' component={OrganizationCreate} />
-        <Route exact path='/organizations' component={Organizations} />
-        <Route exact path='/organization-single' component={OrganizationSingle} />
-        <Route exact path='/profile' component={Profile} />
-        <Route exact path='/reviewer' component={Reviewer} />
-        <Route exact path='/reviews' component={Reviews} />
-        <Route exact path='/saved-organizations' component={SavedOrganizations} />
-        <Route exact path='/upvoted-reviewers' component={UpvotedReviewers} />
+        <Route path='/category' component={Category} />
+        <Route path='/organization-create' component={OrganizationCreate} />
+        <Route path='/organizations' component={Organizations} />
+        <Route path='/organization-single' component={OrganizationSingle} />
+        <Route path='/profile' component={Profile} />
+        <Route path='/reviewer' component={Reviewer} />
+        <Route path='/reviews' component={Reviews} />
+        <Route path='/saved-organizations' component={SavedOrganizations} />
+        <Route path='/upvoted-reviewers' component={UpvotedReviewers} />
     </Switch>
 )
